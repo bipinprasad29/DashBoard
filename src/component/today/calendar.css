@@ -1,0 +1,58 @@
+.todayTime{
+    font-size: 24px;
+    font-weight: 800;
+    text-align:  center;
+    font-family: "Comfortaa";
+}
+.react-calendar{
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 1.3rem !important;
+ }
+ .react-calendar__navigation{
+  background-color: rgb(129, 129, 235) !important;
+ }
+ .react-calendar__navigation__arrow {
+     font-size: 1.5rem !important;
+ }
+ abbr{
+     font-size: 1rem !important;
+     font-weight: 300 !important;
+ }
+
+ .reminder{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    padding: 20px;
+    background-color:#8e8eee;
+    top: 20%;
+    left: 45%;
+    border-radius: 5px;
+ }
+ .reminder input{
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 8px;
+  font-size: 18px;
+  border: none;
+ }
+
+ .reminderData{
+    display: flex;
+    width: 450px;
+    justify-content:space-between;
+    margin: auto;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    background-color: #8e8eee;
+    cursor: pointer;
+ }

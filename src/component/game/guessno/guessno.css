@@ -1,0 +1,94 @@
+  .guessNoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .guessHeading {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2vmax;
+    margin-top: 20px;
+    color: aqua !important;
+  }
+
+  .guessSmallHeading{
+    text-align: center;
+    font-size: 16px;
+  }
+  .guessGameStatus {
+    display: block;
+    font-size: 24px;
+    color:brown;
+    text-align: center;
+    margin: 10px 0;
+  }
+   
+
+  .guessInput {
+    margin: 20px auto;
+    width: 160px;
+    height: 50px;
+    appearance: none;
+    padding: 10px;
+    display: block;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+  }
+
+  .guessInput:focus {
+    border: 1px solid #2b0c04;
+  }
+
+ .guessInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .guessInput{
+    appearance: none;
+    -moz-appearance: textfield;
+  }
+
+  .guessBtn {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+    display: block;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .guessBtn:hover {
+    background-color: #256d83;
+    color: #fff;
+  }
+
+  .guessCount {
+    width: 180px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .guessNoArrContainer{
+    margin: auto;
+  }
+
+  .guessNoArr{
+    display: inline-block;
+    padding: 2px;
+    background-color:  lightslategrey;
+  }
+
+  .win{
+    color: #3d8a33;
+  }
+  .bgwin{
+    background-color: #3d8a33;
+  }

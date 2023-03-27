@@ -1,0 +1,41 @@
+
+.nav{
+    width: 100vw;
+    height: 60px;
+    padding: 0 10px;
+    background-color: #02225D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+    margin-left: 14px;
+    color: rgb(47, 197, 207);
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
+}
+
+.navbar li{
+    margin-right: 30px;
+    font-size: 16px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+  color: rgba(106, 197, 250, 0.493);
+}
+.hamBurrger{
+    font-size: 32px;
+    cursor: pointer;
+}

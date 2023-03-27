@@ -1,0 +1,66 @@
+.inbox{
+    width: 90%;
+    height: auto;
+    margin: 0 auto 5px;
+    padding: 10px 5px;
+    display: flex;
+    justify-content:flex-start;
+    position: relative;
+    border-radius: 5px;
+}
+.msg{
+    font-size: 20px;
+    height: 100;
+    width: 95%;
+    word-wrap: break-word;  
+    border: none;
+    background-color: transparent; 
+    outline: none;
+}
+.bullet{
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #5a411b;
+    cursor: pointer;  
+}
+.btn-container{
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    right: 20px;
+    display: flex;
+    justify-content: center; 
+}
+.date{
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    font-size: 10px;
+}
+.edit{
+    color: #248024;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.delete{
+    color: #cf3e25;
+}
+.inbox:hover{
+    background-color: #f8d5a7;
+}
+.empty{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #cf3e25;
+    font-size: 1.8rem;
+
+}
+.edit:hover{
+    color: #3be23b;
+}
+.delete:hover{
+    color: #ec7c66;
+}
